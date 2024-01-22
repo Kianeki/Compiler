@@ -31,8 +31,7 @@ from LLVM import LLVMGenerator
 #             node.value = "*"
 #         elif ctx.DIV():
 #             node.value = "/"
-#         node.left = self.visit(ctx.children[0])
-#         node.right = self.visit(ctx.children[2])
+
 
 
 def toDot(AST, count):
@@ -76,3 +75,4 @@ def main(argv):
 
 if __name__ == '__main__':
     main(sys.argv)
+    #test
